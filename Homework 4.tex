@@ -1,0 +1,39 @@
+\documentclass{report}
+
+% set font encoding for PDFLaTeX, XeLaTeX, or LuaTeX
+\usepackage{ifxetex,ifluatex}
+\if\ifxetex T\else\ifluatex T\else F\fi\fi T%
+  \usepackage{fontspec}
+\else
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{lmodern}
+\fi
+
+\usepackage{hyperref}
+
+\title{Homework 4}
+\author{Kennon Stewart and Julia Sterling}
+
+% Enable SageTeX to run SageMath code right inside this LaTeX file.
+% http://doc.sagemath.org/html/en/tutorial/sagetex.html
+% \usepackage{sagetex}
+
+% Enable PythonTeX to run Python – https://ctan.org/pkg/pythontex
+% \usepackage{pythontex}
+
+\begin{document}
+\maketitle
+
+  \begin{itemize}
+    \item[-] For the first question, we prove the following: $\Delta[x^{\underline n}]=nx^{\underline{n-1}}$.
+    $$\Delta[x^{\underline n}]=(x+1)(x)...(x-n)-(x)(x-1)...(x-n+1)$$
+    $$=[(x+1)-(x-n+1)]x^{\underline{n-1}}$$
+    $$=nx^{\underline{n-1}}$$
+    \item[-] For the second question, 
+  \end{itemize}
+
+
+
+
+\end{document}
