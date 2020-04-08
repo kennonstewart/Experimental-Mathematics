@@ -1,6 +1,5 @@
 # First
 
-Hi everyone!
+Hey Julia!
 
-I'm a super nervous person and this is probably one of the scariest things I've done yet
-So hopefully this all turns out well and doesn't turn me off of a degree track in Computer Science!
+This is the repository I made for edits to the homework file, so if you have any changes you can send them here and I'll do the same.
